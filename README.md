@@ -1,7 +1,7 @@
 
-# DYR_IdleVideoTitle Plugin for RPG Maker MV
+# DYR_IdleCommonEvent Plugin for RPG Maker MV
 
-This plugin allows you to automatically play a video after a certain idle time in the title menu screen.
+The DYR_IdleCommonEvent plugin introduces an engaging way to interact with players by triggering a designated Common Event after a specific idle time. With this plugin, you can seamlessly integrate events into moments of player inactivity, creating opportunities for immersive storytelling, helpful tips, or any kind of interactive content you envision.
 
 ## View Code and Download File
 
@@ -9,7 +9,7 @@ This plugin allows you to automatically play a video after a certain idle time i
 
 ## Appendix
 
-The Idle Video Title plugin enhances the title screen of your RPG Maker MV game by allowing you to showcase an introductory video to your players. Engage players from the moment they start your game with captivating videos that set the mood and immerse them into your game's world
+
 
 ## Features
 
