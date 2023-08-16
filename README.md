@@ -47,7 +47,7 @@ The DYR_IdleCommonEvent plugin introduces an engaging way to interact with playe
 ![CommoEvent Config](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/8b19b79d-e123-4cdf-bc9e-969b89dc0a4b)
    
 ## Video DEMO
-
+Acording to user preferences the Idle Duration can be Customizable / Set the Duration in seconds (60 min = 3600 Sec)
 
 [Demo](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/0ec7766f-b505-4da0-97d8-3b190f4952d2)
 
