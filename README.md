@@ -51,5 +51,12 @@ Acording to user preferences the Idle Duration can be Customizable / Set the Dur
 
 [Demo](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/0ec7766f-b505-4da0-97d8-3b190f4952d2)
 
+## Issues and Feedback
+If you encounter any issues, bugs, or have suggestions for improvements, please feel free to open an [ISSUE](https://github.com/Danyerusama/DYR_IdleCommonEvent/issues). Your feedback and contributions are highly valued and will contribute to enhancing the quality of these plugins. Thank you for helping to make them better!
+
+Before creating a new issue, please ensure that a similar issue has not already been reported. Providing detailed information about the problem you're experiencing will assist in quicker resolution.
+
+Looking forward to addressing your feedback and working together to improve these plugins!
+
 ## License
 This project is governed by the MIT License - please refer to the [LICENSE](https://github.com/Danyerusama/DYR_IdleVideoTitle/blob/94ceb843b5d2f9b5f51aa7eec3788e41f5f0cdb3/LICENSE) file for comprehensive details.
