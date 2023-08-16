@@ -1,60 +1,55 @@
 
 # DYR_IdleCommonEvent Plugin for RPG Maker MV
+The **DYR_IdleCommonEvent** plugin adds a feature to trigger a Common Event when the player remains idle for a specified amount of time.
 
-The DYR_IdleCommonEvent plugin introduces an engaging way to interact with players by triggering a designated Common Event after a specific idle time. With this plugin, you can seamlessly integrate events into moments of player inactivity, creating opportunities for immersive storytelling, helpful tips, or any kind of interactive content you envision.
 
 ## View Code and Download File
 
-[DYR_IdleVideoTitle.js](https://github.com/Danyerusama/DYR_IdleVideoTitle/blob/10e6f60b4b9057141604b0f50650a7fffb88719b/DYR_IdleVideoTitle.js)
+[DYR_IdleCommonEvent.js](https://github.com/Danyerusama/DYR_IdleCommonEvent/blob/33927c5afbf8f7e71a321b4699e44ad8fddf6bbd/DYR_IdleCommonEvent.js)
 
 ## Appendix
-
+The DYR_IdleCommonEvent plugin introduces an engaging way to interact with players by triggering a designated Common Event after a specific idle time. With this plugin, you can seamlessly integrate events into moments of player inactivity, creating opportunities for immersive storytelling, helpful tips, or any kind of interactive content you envision.
 
 
 ## Features
 
-- Automatically plays a video after a specified idle time on the title menu screen.
-- Allows you to configure the map ID to transfer to and the amount of idle time before transferring.
-- Provides options to set the video resolution.
-- Script command to enable or disable the plugin.
+- Automatically triggers a Common Event after a certain idle time.
+- Define the Common Event ID to be triggered when the player is idle.
+- Customize the idle time duration.
+- Enable or disable the plugin using script calls.
 
 
 ## Installation
 
-1. Download the DYR_IdleVideoTitle.js file.
-2. Place the file in your RPG Maker MV project's js/plugins/ directory.
-3. In RPG Maker MV, open the Plugin Manager and enable the 
-``` 
-'DYR_IdleVideoTitle' Plugin
+1. Download the `DYR_IdleCommonEvent.js` plugin file.
+2. Place the file in your RPG Maker MV project's `js/plugins/` directory.
+3. In RPG Maker MV, open the Plugin Manager and activate the `DYR_IdleCommonEvent` plugin.
 
-```
     
-## Usage/Examples
+## Usage
 
-1. Create a new map in your game with an auto-run event.
-2. Prompt the player with a choice, asking if they want to watch the video or skip it.
-3. If the player chooses to watch the video, use the "Show Video" event command to play the video.
-4. When the video finishes playing, call the Event command: ``` go to title screen``` to return to the title screen.
-5. If the player chooses to skip the video, proceed with other event commands, including returning to the title screen.
+1. Install the plugin and configure the desired Common Event ID and idle time in the plugin parameters.
+2. During events, you can use the following script calls to enable or disable the plugin:
+   - To enable the plugin: `IdleCommonEventEnable()`
+   - To disable the plugin: `IdleCommonEventDisable()`
+3. When the plugin is disabled, the Common Event won't trigger, and the player can move freely without any idle event.
+
 
 
 ## Screenshots
 
-1. New Map:
+1. Plugin Config:
+
+![Plugin Config](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/a1b90554-8341-4448-af8d-3b6c70e80aea)
+
+2. CommonEvent Config Example:
+
+![CommoEvent Config](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/8b19b79d-e123-4cdf-bc9e-969b89dc0a4b)
    
-![Map_Zone](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/d5be882b-2537-436c-8d09-39ba35eed88a)
-
-2. Project Event Config:
-     
-![Project Event Config](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/a3123efa-6207-4eab-9bf7-7b1cdb2880dd)
-
-3. Plugin Config:
-   
-![Plugin Config](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/ce3b821e-35b9-48f8-b36b-b66c196f08d3)
-
 ## Video DEMO
 
-[Demo](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/1777624a-7cb2-4bb9-83b7-f61e100adb0f)
+
+[Demo](https://github.com/Danyerusama/DYR_IdleVideoTitle/assets/142346653/0ec7766f-b505-4da0-97d8-3b190f4952d2)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Danyerusama/DYR_IdleVideoTitle/blob/94ceb843b5d2f9b5f51aa7eec3788e41f5f0cdb3/LICENSE) file for more details.
